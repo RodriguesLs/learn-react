@@ -6,6 +6,7 @@ import Elements from './components/MultiElements';
 import FamilySilva from './components/FamilySilva';
 import Family, { ChildPropagation } from './components/Family';
 import Member from './components/Member';
+import FunctionComponent from './components/FunctionComponent';
 
 const root = document.getElementById('root');
 
@@ -32,5 +33,6 @@ ReactDom.render(
       <Member name="Theodor" />
       <Member name="Darymple" />
     </ChildPropagation>
+    <FunctionComponent />
   </div>
   , root);
