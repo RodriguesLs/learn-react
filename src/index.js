@@ -1,13 +1,10 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import FirstComponent from './components/FirstComponent';
-import { CompA, CompB } from './components/TwoComponents';
-import Elements from './components/MultiElements';
-import FamilySilva from './components/FamilySilva';
-import Family, { ChildPropagation } from './components/Family';
-import Member from './components/Member';
-import FunctionComponent from './components/FunctionComponent';
-import Parent from './components/Parent';
+
+import { 
+  CompA, CompB, Parent, FirstComponent, Elements, FamilySilva, Family, Member, 
+  FunctionComponent, ChildPropagation 
+} from './components/';
 
 const root = document.getElementById('root');
 

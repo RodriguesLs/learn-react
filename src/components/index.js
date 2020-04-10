@@ -1,0 +1,10 @@
+export { CompA, CompB  } from './TwoComponents';
+export { default as Parent  } from './Parent';
+export { default as Child  } from './Child';
+export { default as FirstComponent } from './FirstComponent';
+export { default as Elements } from './MultiElements';
+export { default as FamilySilva } from './FamilySilva';
+export { default as Family } from './Family';
+export { ChildPropagation } from './Family';
+export { default as Member } from './Member';
+export { default as FunctionComponent } from './FunctionComponent';
