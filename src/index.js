@@ -7,6 +7,7 @@ import FamilySilva from './components/FamilySilva';
 import Family, { ChildPropagation } from './components/Family';
 import Member from './components/Member';
 import FunctionComponent from './components/FunctionComponent';
+import Parent from './components/Parent';
 
 const root = document.getElementById('root');
 
@@ -34,5 +35,8 @@ ReactDom.render(
       <Member name="Darymple" />
     </ChildPropagation>
     <FunctionComponent />
+    
+    <Parent />
+
   </div>
   , root);
