@@ -3,7 +3,9 @@ import ReactDom from 'react-dom';
 import FirstComponent from './components/FirstComponent';
 import { CompA, CompB } from './components/TwoComponents';
 import Elements from './components/MultiElements';
-import Family from './components/FamilySilva';
+import FamilySilva from './components/FamilySilva';
+import Family from './components/Family';
+import Member from './components/Member';
 
 const root = document.getElementById('root');
 
@@ -15,6 +17,14 @@ ReactDom.render(
     <CompA value="Yeah, I'm A!" />
     <CompB value="B on area, save!" />
     <Elements />
-    <Family />
+    <FamilySilva />
+    <Family>
+      <Member name="Joaquim" surname="Felix" />
+      <Member name="Mariana" surname="Felix" />
+    </Family>
+    <Family>
+      <Member name="Rafael" surname="Arruda" />
+      <Member name="Rodolfo" surname="Arruda" />
+    </Family>
   </div>
   , root);
