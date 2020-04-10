@@ -18,9 +18,9 @@ ReactDom.render(
     <CompB value="B on area, save!" />
     <Elements />
     <FamilySilva />
-    <Family>
-      <Member name="Joaquim" surname="Felix" />
-      <Member name="Mariana" surname="Felix" />
+    <Family surname="Felix Pereira">
+      <Member name="Joaquim" />
+      <Member name="Mariana" />
     </Family>
     <Family>
       <Member name="Rafael" surname="Arruda" />
